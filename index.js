@@ -78,5 +78,8 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  // write your cod
+  //return this statement if no cardNumber is given
+  if (cardNumber === undefined) {
+    return "Sorry, we don't have a credit card on file for you."
+  }
 }
